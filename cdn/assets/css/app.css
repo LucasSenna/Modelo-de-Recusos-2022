@@ -792,7 +792,7 @@ footer {
 }
 
 /** 2.11 Sidebar **/
-#sidebar.ativo .sidebar-wrapper {
+#sidebar.active .sidebar-wrapper {
   left: 0;
 
 }

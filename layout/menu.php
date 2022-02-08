@@ -20,14 +20,14 @@
             margin-top: -0.23rem;
         }
 
-        .active {
+        .ativo {
             background-color: #e1ebe3;
         }
     </style>
 
     <div id="app">
-        <div id="sidebar" class="ativo">
-            <div class="sidebar-wrapper ativo ps">
+        <div id="sidebar" class="active">
+            <div class="sidebar-wrapper active ps">
                 <div class="m-4 mx-auto text-center">
                     <!-- <a href="index.php">
                     <img class="img-fluid" src="https://atilasilvalima.a2hosted.com/projects/EGPCE/Cedis/cdn/imagens/egpce.png" alt="Logo EGPCE">
@@ -40,13 +40,13 @@
 
                         <li class="sidebar-item">
                             <div class="bd-callout-menu bd-callout-success-menu">
-                                <a href="Topico01.php" class="MenuTopico sidebar-link <?php if($page=='Topico01'){echo 'active';}?>"><span id="menuNumero">01 </span>A origem do Balanced Scorecard </a>
+                                <a href="Topico01.php" class="MenuTopico sidebar-link <?php if($page=='Topico01'){echo 'ativo';}?>"><span id="menuNumero">01 </span>A origem do Balanced Scorecard </a>
                             </div>
                         </li>
 
                         <li class="sidebar-item">
                             <div class="bd-callout-menu bd-callout-success-menu">
-                                <a href="Topico02.php" class="MenuTopico sidebar-link <?php if($page=='Topico02'){echo 'active';}?>">
+                                <a href="Topico02.php" class="MenuTopico sidebar-link <?php if($page=='Topico02'){echo 'ativo';}?>">
                                     <div id="menuNumero">02 </div>O Poder da decisão
                                 </a>
                             </div>
@@ -54,13 +54,13 @@
 
                         <li class="sidebar-item">
                             <div class="bd-callout-menu bd-callout-success-menu">
-                                <a href="Topico03.php" class="MenuTopico sidebar-link <?php if($page=='Topico03'){echo 'active';}?>"><span id="menuNumero">03 </span>Planejamento de Metas </a>
+                                <a href="Topico03.php" class="MenuTopico sidebar-link <?php if($page=='Topico03'){echo 'ativo';}?>"><span id="menuNumero">03 </span>Planejamento de Metas </a>
                             </div>
                         </li>
 
                         <li class="sidebar-item">
                             <div class="bd-callout-menu bd-callout-success-menu">
-                                <a href="Referencias.php" class="MenuTopico sidebar-link <?php if($page=='Referencias'){echo 'active';}?>">Referências</a>
+                                <a href="Referencias.php" class="MenuTopico sidebar-link <?php if($page=='Referencias'){echo 'ativo';}?>">Referências</a>
                             </div>
                         </li>
                     </ul>
@@ -68,15 +68,15 @@
                 <button class="sidebar-toggler btn x"><i data-feather="x"></i></button>
             </div>
         </div>
-    </div>
+    
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
     <script>
         $(document).ready(function() {
             $('ul li a').click(function() {
-                $('li a').removeClass("active");
-                $(this).addClass("active");
+                $('li a').removeClass("ativo");
+                $(this).addClass("ativo");
             });
         });
     </script>
