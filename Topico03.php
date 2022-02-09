@@ -17,8 +17,10 @@ include('layout/header.php');
     <div id="main">
         <!-- NAV TOP -->
         <?php include('layout/nav.php') ?>
-        <!-- CONTEUDO INICIO -->
-        <div class="main-content container-fluid Texto">
+
+        <!-- CONTEUDO INICIO PARTE 1-->
+<section id="pt01">
+        <div class="main-content container-fluid">
             <div class="row">
                 <!-- Begin row -->
                 <div class="col-md-1"></div>
@@ -158,8 +160,10 @@ include('layout/header.php');
                 <a href="Referencias.php" class="btn btn-primary" role="button" aria-pressed="true">Próximo <i class="fa fa-chevron-right"></i></a>
             </div>
 
-        </div> <!-- CONTEUDO FIM -->
-
+        </div> 
+</section>
+<!-- CONTEUDO PARTE 01 FIM-->
+        
         <!-- FOOTER -->
         <?php include('layout/footer.php') ?>
 

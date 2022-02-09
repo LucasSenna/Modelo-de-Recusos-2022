@@ -17,8 +17,11 @@ include('layout/header.php');
     <div id="main">
         <!-- NAV TOP -->
         <?php include('layout/nav.php') ?>
-        <!-- CONTEUDO INICIO -->
-        <div class="main-content container-fluid Texto" id="pt1">
+       
+
+<!--INÍCIO CONTEUDO PARTE 01-->
+<section id="pt01">
+        <div class="main-content container-fluid">
             <div class="page-title">
                 <div class="row">
                     <!-- LINHA pt01 -->
@@ -97,28 +100,32 @@ include('layout/header.php');
                             </div> <!-- FIM col-md-10 -->
                     <div class="col-md-1"></div>
                 </div> <!-- FIM row -->
-            </div> <!-- CONTEUDO FIM -->
-
-        </div> <!-- CONTEUDO PARTE 01 FIM-->
+            </div> 
+        </div> 
     </div>
+</section>
+<!-- CONTEUDO PARTE 01 FIM-->
 
-        <div class="bg-cinzaAzul" id="pt2">
+<!--INÍCIO CONTEUDO PARTE 02-->
+<section id="pt02">
+<div class="bg-cinzaAzul container-fluid main-content">
             <!-- CONTEUDO PARTE 02-->
             <div class="row">
                 <div class="col-md-1"></div>
                 <div class="col-md-10">
                     <p class="caixa">
-                    <p>Ao determinar sua vida no futuro o seu cérebro perceberá que o que foi escrito não condiz com a <strong>realidade presente</strong> e ele terá dois caminhos a seguir: poderá lhe redirecionar para o presente fazendo-o acreditar que tudo o que está escrito é uma grande bobagem e que não tende a se realizar ou ajustar todas as suas ações para realizar o que foi escrito. </p>
+                    <h1>Ao determinar sua vida no futuro o seu cérebro perceberá que o que foi escrito não condiz com a <strong>realidade presente</strong> e ele terá dois caminhos a seguir: poderá lhe redirecionar para o presente fazendo-o acreditar que tudo o que está escrito é uma grande bobagem e que não tende a se realizar ou ajustar todas as suas ações para realizar o que foi escrito. </h1>
                     </p>
                 </div>
                 <div class="col-md-1"></div>
             </div>
         </div>
-        <!--FIM CONTEUDO PARTE 02-->
+</section>
+<!--FIM CONTEUDO PARTE 02-->
 
-        <div class="main-content container-fluid Texto" id="pt03">
-            <!--INÍCIO CONTEUDO PARTE 03-->
-
+<!--INÍCIO CONTEUDO PARTE 03-->
+<section id="pt03">
+        <div class="main-content container-fluid">
             <div class="row">
                 <!-- Begin row -->
                 <div class="col-md-1"></div>
@@ -166,11 +173,8 @@ include('layout/header.php');
             <div class="col-md-1"></div>
         </div>
     </div>
-    <!--FIM CONTEUDO PARTE 03-->
-
-    <button id="topBtn">
-        <i class="fas fa-arrow-up"></i>
-    </button>
+</section>
+<!--FIM CONTEUDO PARTE 03-->
                             <br><br>
                             <!-- SCRIPT LIGHTBOX -->
     <script>

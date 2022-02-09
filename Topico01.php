@@ -16,8 +16,10 @@ include('layout/header.php');
     <div id="main">
         <!-- NAV TOP -->
         <?php include('layout/nav.php') ?>
-        <!-- CONTEUDO PARTE 01-->
-        <div class="main-content container-fluid Texto" id="pt1">
+
+<!--INÍCIO CONTEUDO PARTE 01-->
+<section id="pt01">
+        <div class="main-content container-fluid">
             <div class="page-title">
                 <div class="row">
                     <!-- LINHA pt01 -->
@@ -48,11 +50,13 @@ include('layout/header.php');
                     <div class="col-md-1"></div>
                 </div> <!-- FIM row -->
             </div> <!-- CONTEUDO FIM -->
+        </div>
+</section>
+ <!-- CONTEUDO PARTE 01 FIM-->
 
-        </div> <!-- CONTEUDO PARTE 01 FIM-->
-
-        <div class="bg-cinzaAzul" id="pt2">
-            <!-- CONTEUDO PARTE 02-->
+<!--INÍCIO CONTEUDO PARTE 02-->
+<section id="pt2">
+        <div class="bg-cinzaAzul container-fluid main-content">
             <div class="row">
                 <div class="col-md-1"></div>
                 <div class="col-md-10">
@@ -63,11 +67,12 @@ include('layout/header.php');
                 <div class="col-md-1"></div>
             </div>
         </div>
-        <!--FIM CONTEUDO PARTE 02-->
+</section>
+<!--FIM CONTEUDO PARTE 02-->
 
-        <div class="main-content container-fluid Texto" id="pt03">
-            <!--INÍCIO CONTEUDO PARTE 03-->
-
+<!--INÍCIO CONTEUDO PARTE 03-->
+<section id="pt3">
+        <div class="main-content container-fluid">
             <div class="row">
                 <!-- Begin row -->
                 <div class="col-md-1"></div>
@@ -224,7 +229,8 @@ include('layout/header.php');
             <div class="col-md-1"></div>
         </div>
     </div>
-    <!--FIM CONTEUDO PARTE 03-->
+</section>
+<!--FIM CONTEUDO PARTE 03-->
 
 
     <!-- SCRIPT LIGHTBOX -->

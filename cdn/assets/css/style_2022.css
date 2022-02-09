@@ -69,8 +69,51 @@
 
 /* #################################### */
 
+.caixa {
+    margin-top: -1rem;
+    margin-bottom: 1.2rem;
+    font-weight: 400;
+    line-height: 1.941176470588235;
+    font-size: 1.2rem;
+    font-family: 'Raleway' !important;
+    display: flex;
+}
 
-/* BORDAS */
+.bg-cinzaAzul h1 {
+    font-size: 2.5rem;
+    margin-left: -2.5rem;
+    margin-right: -2.5rem;
+}
+
+.bg-cinzaAzul h2 {
+    font-size: 2rem;
+    margin-left: -2.5rem;
+    margin-right: -2.5rem;
+}
+
+.bg-cinzaAzul h3 {
+    font-size: 1.75rem;
+    margin-left: -2.5rem;
+    margin-right: -2.5rem;
+}
+
+.bg-cinzaAzul h4 {
+    font-size: 1.5rem;
+    margin-left: -2.5rem;
+    margin-right: -2.5rem;
+}
+
+.bg-cinzaAzul h4 {
+    font-size: 1.5rem;
+    margin-left: -2.5rem;
+    margin-right: -2.5rem;
+}
+
+.bg-cinzaAzul h5 {
+    font-size: 1.25rem;
+    margin-left: -2.5rem;
+    margin-right: -2.5rem;
+}
 
 
 /* Bordas */
