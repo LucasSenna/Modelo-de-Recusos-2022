@@ -154,7 +154,8 @@ include('layout/header.php');
                             <p> Desse modo, espera-se que ao elaborar a sua carta de seu futuro você considere tudo aquilo que deseja ser, as emoções que pretende vivenciar e irá perceber que diferentes versões de você podem estar relacionadas a diferentes partes dessa visão. Você também pode adicionar questões materiais como, por exemplo, em que tipo de casa espera estar morando, em qual local de moradia e até o veículo que pretende utilizar para se locomover.
                             </p>
 
-                            <p>Apenas lembre que a carta é apenas um direcionamento que irá
+                            <p>
+                                Apenas lembre que a carta é apenas um direcionamento que irá
                                 colaborar com o seu planejamento e alimentar o cérebro de motivação. Porém, como será mostrado adiante, os detalhes do seu plano de vida precisam considerar várias questões como número de pontos focais e a definição de prazos. </p>
 
                             <p>Escreva aqui a sua carta:</p>
@@ -167,6 +168,9 @@ include('layout/header.php');
     </div>
     <!--FIM CONTEUDO PARTE 03-->
 
+    <button id="topBtn">
+        <i class="fas fa-arrow-up"></i>
+    </button>
                             <br><br>
                             <!-- SCRIPT LIGHTBOX -->
     <script>
@@ -174,6 +178,9 @@ include('layout/header.php');
             event.preventDefault();
             $(this).ekkoLightbox();
         });
+
+
+
     </script>
 
     <!-- FOOTER -->
@@ -183,6 +190,9 @@ include('layout/header.php');
 
     <!-- FOOTER JS -->
     <?php include('layout/js.php') ?>
+
+    <!-- BOTÃO BACK TO TOP -->
+    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
 
 </body>
 

@@ -168,6 +168,9 @@ include('layout/header.php');
     <!-- FOOTER JS -->
     <?php include('layout/js.php') ?>
 
+    <!-- BOTÃO BACK TO TOP -->
+    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
 </body>
 
 </html>

@@ -14,5 +14,8 @@
 
 <script src="https://atilasilvalima.a2hosted.com/projects/EGPCE/Cedis/cdn/assets/js/index.js"></script>
 
+<script src="../cdn/assets/js/jquery.magnific-popup.min.js"></script>
+
+<script src="../cdn/assets/js/main.js"></script>
 
 
