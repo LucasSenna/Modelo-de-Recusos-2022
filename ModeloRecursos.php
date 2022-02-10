@@ -36,7 +36,7 @@
                 <!-- Titulo Figura -->
                 <div class="text-center">
                     <a href="imagens/Figura01.png" data-bs-toggle="modal" data-bs-target="#Imagem01">
-                        <img class="img-fluid" src="imagens/Figura01.png" alt="Alt da imagem fica aqui">
+                        <img class="img-fluid wow fadeInLeft" src="imagens/Figura01.png" alt="Alt da imagem fica aqui">
                     </a>
                     <p class="FonteFigura">Fonte: Fonte da imagem fica aqui</p>
                 </div>
@@ -52,6 +52,7 @@
                                 <p class="TituloFigura"><strong>Figura 1:</strong> Nome da figura</p>
                             </div>
                         </div>
+
                     </div>
                 </div>
                 <!-- Imagem 01 - End -->
@@ -139,7 +140,9 @@
                     $(document).on('click', '[data-toggle="lightbox"]', function(event) {
                         event.preventDefault();
                         $(this).ekkoLightbox();
-                    });                    
+                    });      
+                    
+                    $( ".wow" ).addClass( "fadeInUp" );
                 </script>
             
             <!-- FOOTER -->

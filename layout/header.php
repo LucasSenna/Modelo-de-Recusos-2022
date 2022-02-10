@@ -25,9 +25,8 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="http://ava.egp.ce.gov.br/2018/desv/logo/favicon.png" />
 
-    <!-- css vanessa -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/mdb.min.css">
+    <!-- css fade in -->
+    <link rel="stylesheet" href="../cdn/assets/css/mdb.min.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script>

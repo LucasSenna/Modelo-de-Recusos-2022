@@ -571,7 +571,7 @@
     background-color: #008442;
     text-align: center;
     z-index: 99;
-    -webkit-transition: all 0.3s ease-out 0s;
+    -webkit-transition: all 0.1s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
     -ms-transition: all 0.3s ease-out 0s;
     -o-transition: all 0.3s ease-out 0s;

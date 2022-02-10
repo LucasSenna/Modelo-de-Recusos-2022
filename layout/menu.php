@@ -1,6 +1,4 @@
-<body>
     <!-- PLUGIN DO FADE IN -->
-
 
     <style>
         .MenuTopico {
@@ -80,5 +78,3 @@
             });
         });
     </script>
-
-</body>

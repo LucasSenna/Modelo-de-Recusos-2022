@@ -57,7 +57,7 @@ include('layout/header.php');
                         </div>
 
                         <h4>
-                            Pronto <?php echo $NomeUsuario ?> $NomeUsuario, agora você já pode fazer a avaliação do curso abaixo.
+                            Pronto <?php echo $NomeUsuario ?>, agora você já pode fazer a avaliação do curso abaixo.
                         </h4><br><br>
 
                         <script>
